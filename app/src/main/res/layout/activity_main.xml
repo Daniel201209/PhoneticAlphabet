@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp24"
+            android:background="@color/title_black"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dp10"
+            android:text="单元音" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/home_hot_title_relative"
+            android:layout_marginLeft="@dimen/dp10"></android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/linear_1">
+
+        <TextView
+            android:id="@+id/title_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp24"
+            android:background="@color/title_black"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dp10"
+            android:text="双元音" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/home_hot_title_relative"
+            android:layout_marginLeft="@dimen/dp10"></android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/linear_2">
+
+        <TextView
+            android:id="@+id/title_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp24"
+            android:background="@color/title_black"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dp10"
+            android:text="清辅音" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/home_hot_title_relative"
+            android:layout_marginLeft="@dimen/dp10"></android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/linear_3">
+
+        <TextView
+            android:id="@+id/title_4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp24"
+            android:background="@color/title_black"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dp10"
+            android:text="浊辅音" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/home_hot_title_relative"
+            android:layout_marginLeft="@dimen/dp10"></android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
