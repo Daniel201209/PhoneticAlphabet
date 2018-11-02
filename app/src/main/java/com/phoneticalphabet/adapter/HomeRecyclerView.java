@@ -98,7 +98,8 @@ public class HomeRecyclerView extends RecyclerView.Adapter {
 
     @Override
     public int getItemCount() {
-        return voiceBeans.size() + FOOT_COUNT;
+        return voiceBeans.size();
+//        return voiceBeans.size() + FOOT_COUNT;
     }
 
     class H extends RecyclerView.ViewHolder implements View.OnClickListener{
