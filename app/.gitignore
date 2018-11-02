@@ -1,1 +1,9 @@
-/build
+.gradle
+.idea
+*/build
+*/app.iml
+*/gitignore
+build
+gradle
+*.iml
+*.properties
